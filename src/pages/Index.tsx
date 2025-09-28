@@ -8,6 +8,7 @@ import { AirQualityMonitor } from "@/components/AirQualityMonitor";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Home, Settings, Bell, User } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -32,8 +33,10 @@ const Index = () => {
               <Button variant="ghost" size="sm">
                 <Bell className="w-4 h-4" />
               </Button>
-              <Button variant="ghost" size="sm">
-                <Settings className="w-4 h-4" />
+              <Button variant="ghost" size="sm" asChild>
+                <Link to="/settings">
+                  <Settings className="w-4 h-4" />
+                </Link>
               </Button>
               <Button variant="ghost" size="sm">
                 <User className="w-4 h-4" />
