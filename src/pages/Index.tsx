@@ -49,7 +49,7 @@ const Index = () => {
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
         <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-2">Welcome back, Sarah</h2>
+          <h2 className="text-3xl font-bold mb-2">Welcome back</h2>
           <p className="text-muted-foreground">
             Your smart apartment systems are running smoothly. Here's your daily overview.
           </p>
