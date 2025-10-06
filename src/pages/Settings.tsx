@@ -147,3 +147,5 @@ const Settings = () => {
 };
 
 export default Settings;
+
+// (Removed local Label component implementation to resolve import conflict)
