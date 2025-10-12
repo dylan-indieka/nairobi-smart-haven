@@ -5,7 +5,7 @@ import { Progress } from "@/components/ui/progress";
 import { Trash2, Recycle, AlertCircle } from "lucide-react";
 
 export function WasteManagement() {
-  const [binLevel, setBinLevel] = useState(90);
+  const [binLevel, setBinLevel] = useState(73);
   const [recycleLevel, setRecycleLevel] = useState(45);
   const [nextCollection, setNextCollection] = useState("Tomorrow 8:00 AM");
 
